@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/a_26"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/layout25_textView"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="300dip"
+        android:layout_marginLeft="480dip"
+        android:layout_marginTop="90dip"
+        android:layout_marginRight="290dip"
+        android:ems="10"
+        android:text=":"
+        android:textColor="@color/blue" />
+
+</LinearLayout><!-- From: file:/W:/AndroidCode/codes/04/4.4/LeKab/leKa/src/main/res/layout/lay25_1.xml -->

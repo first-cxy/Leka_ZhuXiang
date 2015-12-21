@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e0000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="你答错了,再想一想"
+        android:textColor="@color/red"
+        android:textSize="60dip" />
+
+</LinearLayout><!-- From: file:/W:/AndroidCode/codes/04/4.4/LeKab/leKa/src/main/res/layout/error.xml -->

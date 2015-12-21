@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450px"
+    android:layout_height="280px"
+    android:orientation="vertical" >
+
+     <ImageView 
+        android:layout_width="450px"
+        android:layout_height="280px"
+        android:id="@+id/imageAdater"
+        android:scaleType="centerInside"
+        />
+    
+
+</LinearLayout><!-- From: file:/W:/AndroidCode/codes/04/4.4/LeKab/leKa/src/main/res/layout/imageadpter.xml -->

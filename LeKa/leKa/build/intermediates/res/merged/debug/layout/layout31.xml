@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/robittopad"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hand_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_hand"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/xiaolian_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiaolian"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/qianjin_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qianjin"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/changge_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/changge"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+ 
+</LinearLayout><!-- From: file:/W:/AndroidCode/codes/04/4.4/LeKab/leKa/src/main/res/layout/layout31.xml -->

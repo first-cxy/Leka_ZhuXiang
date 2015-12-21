@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a_10">
+
+    <Button
+        android:id="@+id/hello_btn"
+        android:layout_marginLeft="320dip"
+        android:layout_marginTop="150dip"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_width="460dip"
+        android:layout_height="360dip"
+        android:background="@drawable/helloimg" />
+
+</LinearLayout>

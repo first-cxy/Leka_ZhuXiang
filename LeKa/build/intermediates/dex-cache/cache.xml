@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\pre-dexed\debug\classes-685243b5a63d8b273eb12451cefba80697c63c4c.jar" />
+    </item>
+    <item
+        jar="W:\AndroidCode\codes\04\4.4\LeKab\leKa\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\pre-dexed\debug\commons-io-2.4-5d76e535db2f286762e6a9061ff82c01373c7b93.jar" />
+    </item>
+    <item
+        jar="W:\Java\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\pre-dexed\debug\support-v4-19.1.0-85027ebd3070ceb950c0600747e857fcca48a8ae.jar" />
+    </item>
+    <item
+        jar="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\exploded-aar\LeKab\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="521097e491f3b39b7aaadd210445cc712f0bcd43">
+        <dex dex="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\pre-dexed\debug\classes-9a4ed43392a87fee65fc9ad84a9b6af1009090a4.jar" />
+    </item>
+    <item
+        jar="W:\AndroidCode\codes\04\4.4\LeKab\leKa\libs\zxing.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="W:\AndroidCode\codes\04\4.4\LeKab\leKa\build\intermediates\pre-dexed\debug\zxing-c5d661a71992b4af8b5ee883be07b525955aba23.jar" />
+    </item>
+
+</items>

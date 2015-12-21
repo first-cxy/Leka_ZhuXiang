@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   android:background="@drawable/num_bg_1">
+    <TextView 
+        android:layout_margin="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择一种完成方式"
+        android:textSize="30dip"
+        android:textColor="@color/blue"
+        />
+<LinearLayout 
+    android:id="@+id/layout_comput"
+    android:layout_marginTop="50dip"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button 
+        android:layout_marginLeft="80dip"
+        android:gravity="center"
+        android:text="电脑编程"
+        android:textSize="30dip"
+        android:textColor="@color/white"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/computer"
+       android:background="@drawable/dialog_time_bg"
+        />
+      <Button 
+           android:layout_marginLeft="50dip"
+           android:gravity="center"
+        android:text="一步完成"
+        android:textSize="30dip"
+        android:textColor="@color/white"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/one_over"
+       android:background="@drawable/dialog_time_bg"
+        />
+        <Button 
+             android:layout_marginLeft="50dip"
+             android:gravity="center"
+        android:text="刷卡完成"
+        android:textSize="30dip"
+        android:textColor="@color/white"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/shua_ka"
+       android:background="@drawable/dialog_time_bg"
+        />
+</LinearLayout>
+<ImageView 
+    android:background="@drawable/computer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/com_img"
+    android:visibility="gone"
+    />
+</LinearLayout>

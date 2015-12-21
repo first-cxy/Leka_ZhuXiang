@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/lx_bg_toolbar_new" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <EditText
+            android:id="@+id/tiaozhuan_edittext_id"
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/tiaozhuan_btn_id"
+            android:layout_toRightOf="@id/tiaozhuan_edittext_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/abc_ab_bottom_transparent_dark_holo"
+            android:gravity="center"
+            android:text="跳转"
+            android:textColor="@color/blue"
+            android:textSize="25dp" />
+        
+        <Button
+            android:id="@+id/btn_robots"
+            android:layout_toRightOf="@id/tiaozhuan_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/abc_ab_bottom_transparent_dark_holo"
+            android:gravity="center"
+            android:text="连接机器人"
+            android:textColor="@color/blue"
+            android:textSize="25dp" />
+        
+ <!-- android:background="@drawable/abc_ab_bottom_transparent_dark_holo" -->
+        <TextView
+            android:id="@+id/txtcount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="0/1"
+            android:textColor="@color/white" />
+
+         
+        
+        <Button
+            android:id="@+id/GoShaka_tbn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title_function_bg"
+            android:text="刷卡"
+            android:textColor="@color/blue"
+            android:textSize="25dp" />
+        <CheckBox
+            android:id="@+id/check_hide"
+            android:layout_toLeftOf="@id/GoShaka_tbn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+              android:layout_marginTop="5dp"
+            android:background="@drawable/abc_ab_bottom_transparent_dark_holo"
+            android:text="显示动作按钮"
+            android:textColor="@color/blue"
+            android:checked="true"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:animationDuration="100"
+            android:gravity="center_vertical"
+            android:spacing="1dp"
+            android:unselectedAlpha="0.5" >
+        </Gallery>
+    </LinearLayout>
+
+</LinearLayout>

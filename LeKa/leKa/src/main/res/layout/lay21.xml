@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="160dip"
+        android:layout_height="160dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/imageview_bg"
+        android:text="刷卡"
+        android:textColor="@color/white"
+        android:textSize="40dip" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="160dip"
+        android:layout_height="160dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/imageview_bg"
+        android:text="消除"
+        android:textColor="@color/white"
+        android:textSize="40dip" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="160dip"
+        android:layout_height="160dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/imageview_bg"
+        android:text="运行"
+        android:textColor="@color/white"
+        android:textSize="40dip" />
+
+    <ListView
+        android:layout_marginLeft="30dip"
+        android:id="@+id/listView_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dip"
+        android:layout_marginTop="80dip"
+        android:divider="@color/white"
+        android:dividerHeight="2dip" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/linearLayout_Subject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/subject_activty_main_bg"
+    android:orientation="vertical" >
+
+         
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal" >
+		<TextView
+    		android:layout_marginRight="80dp"
+           	android:id="@+id/textview_deviceType"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="设备类型：ev3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+             />
+        <TextView
+            android:layout_marginRight="2dp"
+            android:id="@+id/textview_tiaozhuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="程序演示"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_marginRight="80dp"
+            android:id="@+id/textview_qianwang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="->"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+        
+        <TextView
+            android:layout_marginRight="80dp"
+            android:id="@+id/textview_baseURL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置网络"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+             />
+        <TextView
+            
+            android:id="@+id/textview_logreg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="用户"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+             />
+    </LinearLayout>
+    <GridView
+        android:id="@+id/Subject_gridview_ids"
+        android:layout_width="700dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:numColumns="4"
+        android:verticalSpacing="30dp" />
+
+   
+    
+</LinearLayout><!-- From: file:/W:/AndroidCode/codes/04/4.4/LeKab/leKa/src/main/res/layout/activty_subjectscategory_main.xml -->

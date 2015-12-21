@@ -1,0 +1,193 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From LeKa:
+* hs_err_pid6356.log
+* ic_launcher-web.png
+* proguard-project.txt
+From library:
+* pom.xml
+* test-gen\
+* test-gen\com\
+* test-gen\com\nostra13\
+* test-gen\com\nostra13\universalimageloader\
+* test-gen\com\nostra13\universalimageloader\R.java
+* test\
+* test\com\
+* test\com\nostra13\
+* test\com\nostra13\universalimageloader\
+* test\com\nostra13\universalimageloader\core\
+* test\com\nostra13\universalimageloader\core\assist\
+* test\com\nostra13\universalimageloader\core\assist\ImageSizeTest.java
+* test\com\nostra13\universalimageloader\core\download\
+* test\com\nostra13\universalimageloader\core\download\BaseImageDownloaderTest.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In library:
+* AndroidManifest.xml => library\src\main\AndroidManifest.xml
+* assets\ => library\src\main\assets
+* res\ => library\src\main\res
+* src\ => library\src\main\java\
+In LeKa:
+* a_11.JPG => a_11.jpg
+* a_12.JPG => a_12.jpg
+* a_13.JPG => a_13.jpg
+* a_14.JPG => a_14.jpg
+* a_15.JPG => a_15.jpg
+* a_16.JPG => a_16.jpg
+* a_17.JPG => a_17.jpg
+* a_18.JPG => a_18.jpg
+* a_19.JPG => a_19.jpg
+* a_2.JPG => a_2.jpg
+* a_20.JPG => a_20.jpg
+* a_22.JPG => a_22.jpg
+* a_23.JPG => a_23.jpg
+* a_24.JPG => a_24.jpg
+* a_25.JPG => a_25.jpg
+* a_26.JPG => a_26.jpg
+* a_27.JPG => a_27.jpg
+* a_28.JPG => a_28.jpg
+* a_29.JPG => a_29.jpg
+* a_3.JPG => a_3.jpg
+* a_30.JPG => a_30.jpg
+* a_4.JPG => a_4.jpg
+* a_5.JPG => a_5.jpg
+* a_6.JPG => a_6.jpg
+* a_7.JPG => a_7.jpg
+* a_8.JPG => a_8.jpg
+* a_9.JPG => a_9.jpg
+* AndroidManifest.xml => leKa\src\main\AndroidManifest.xml
+* assets\ => leKa\src\main\assets
+* libs\commons-io-2.4.jar => leKa\libs\commons-io-2.4.jar
+* libs\zxing.jar => leKa\libs\zxing.jar
+* lint.xml => leKa\lint.xml
+* res\ => leKa\src\main\res\
+* src\ => leKa\src\main\java\
+* fengshan1.JPG => fengshan1.jpg
+* jiguan3.JPG => jiguan3.jpg
+* p1.PNG => p1.png
+* p10.PNG => p10.png
+* p10_1.PNG => p10_1.png
+* p11.PNG => p11.png
+* p12.PNG => p12.png
+* p13.PNG => p13.png
+* p14.PNG => p14.png
+* p15.PNG => p15.png
+* p16.PNG => p16.png
+* p17.PNG => p17.png
+* p18.PNG => p18.png
+* p19.PNG => p19.png
+* p2.PNG => p2.png
+* p20.PNG => p20.png
+* p21.PNG => p21.png
+* p22.PNG => p22.png
+* p23.PNG => p23.png
+* p24.PNG => p24.png
+* p25.PNG => p25.png
+* p26.PNG => p26.png
+* p27.PNG => p27.png
+* p28.PNG => p28.png
+* p29.PNG => p29.png
+* p3.PNG => p3.png
+* p30.PNG => p30.png
+* p31.PNG => p31.png
+* p32.PNG => p32.png
+* p33.PNG => p33.png
+* p34.PNG => p34.png
+* p35.PNG => p35.png
+* p36.PNG => p36.png
+* p37.PNG => p37.png
+* p38.PNG => p38.png
+* p39.PNG => p39.png
+* p40.PNG => p40.png
+* p41.PNG => p41.png
+* p42.PNG => p42.png
+* p43.PNG => p43.png
+* p44.PNG => p44.png
+* p45.PNG => p45.png
+* p46.PNG => p46.png
+* p47.PNG => p47.png
+* p48.PNG => p48.png
+* p49.PNG => p49.png
+* p5.PNG => p5.png
+* p50.PNG => p50.png
+* p51.PNG => p51.png
+* p52.PNG => p52.png
+* p53.PNG => p53.png
+* p54.PNG => p54.png
+* p6.PNG => p6.png
+* p7.PNG => p7.png
+* p8.PNG => p8.png
+* p8_1.PNG => p8_1.png
+* p9.PNG => p9.png
+* shenshou2.JPG => shenshou2.jpg
+* tow_16.JPG => tow_16.jpg
+* tow_17.JPG => tow_17.jpg
+* tow_20.JPG => tow_20.jpg
+* tow_23.JPG => tow_23.jpg
+* tow_25.JPG => tow_25.jpg
+* tow_27.JPG => tow_27.jpg
+* tow_28.JPG => tow_28.jpg
+* tow_29.JPG => tow_29.jpg
+* tow_8.JPG => tow_8.jpg
+* youlechang4.JPG => youlechang4.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
